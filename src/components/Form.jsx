@@ -12,6 +12,7 @@ export default function Form({setMonedas}) {
         {id:'EUR',nombre:'Euro'},
         {id:'GBP',nombre:'Libra Esterlina'},
         {id:'MXN',nombre:'Peso Mexicano'},
+        {id:'LPS',nombre:'Lempira Honduras'},
     ]
     const [criptoMoneda, setCriptoMoneda] = useState([])
     const [error, setError] = useState(false)
