@@ -63,7 +63,7 @@ export default function Form({setMonedas}) {
         {error && <Error children='Seleccione todos los campos'/>}
         <SeleccionarMoneda />
         <SeleccionarCriptoMoneda />
-        <input type="submit" value={'Cotizar'} className='mt-10 bg-green-400 w-[12rem] text-center rounded-md
+        <input type="submit" value={'Cotizar'} className='mt-10 bg-green-600 w-[12rem] text-center rounded-md
                                             text-white p-2 uppercase text-md hover:bg-green-700 transition-all hover:text-white'/>
     </form>
   )

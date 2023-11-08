@@ -27,7 +27,7 @@ useEffect(() => {
     <main className='flex flex-col items-center justify-center lg:w-[80%] lg:mx-auto  '>
     
     
-      <h1 className=' text-4xl mx-auto font-bold lg:text-7xl text-gray-600 mt-10 '>Criptomoney<span className='text-green-400'>.com</span></h1>
+      <h1 className=' text-4xl mx-auto font-bold lg:text-7xl text-gray-600 mt-10 '>Criptomoney<span className='text-green-500'>.com</span></h1>
       
       <section className=' flex flex-col items-center justify-center w-full lg:flex-row lg:gap-24 lg:mt-24'>
         <Form 
